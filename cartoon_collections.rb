@@ -6,9 +6,8 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  # Use `each_with_index` to enumerate over the provided array
   count = 0
-  if count < array.each do |element|
+  array.each do |element|
     puts "#{count} #{element}"
   end
 end
