@@ -8,8 +8,7 @@ end
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   count = 0
-  if count.to_s < array.each do |element|
+  if count < array.each do |element|
     puts "#{count} #{element}"
-  end
   end
 end
