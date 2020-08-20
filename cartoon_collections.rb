@@ -6,8 +6,9 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  count = 0
+  count = 1
   array.each do |element| #=> for each element identified add 1 to count
     puts "#{count} #{element}"
+    count += 1
   end
 end
