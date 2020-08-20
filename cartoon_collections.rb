@@ -7,7 +7,7 @@ end
 
 def list_dwarves(array)
   count = 0
-  array.each do |element|
+  array.each do |element| #=> for each element identified add 1 to count
     puts "#{count} #{element}"
   end
 end
